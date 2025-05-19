@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 767px)">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CHAT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> CONTATO</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">CHAT</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <h1 class="titulo">Cadastro</h1>
+
+        <div class="box">
+            <form>
+                <fieldset>
+
+                    <p class="descricao">
+                        O cadastro é opcional, você terá acesso a todos os recursos disponíveis mesmo sem cadastro. O
+                        cadastro será usado apenas para fins de personalização do site e melhoria de sua experiência.
+                    </p>
+
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome">Nome completo</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email" class="inputUser" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone">Telefone</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="senha" id="senha" class="inputUser" required>
+                        <label for="senha">Senha</label>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer-items">
+            <div class="footer-item">
+                <div class="footer-logo">
+                    <a href="" class="footer-link">Logo</a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">HOME</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">FAQ</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">CHAT</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">CONTATO</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">INTEGRANTES</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">BUSCAR</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
