@@ -1,3 +1,5 @@
+// navbar
+
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -8,3 +10,20 @@ function menuShow() {
         document.querySelector('.icon').src = "img/fechar.png";
     }
 }
+
+
+
+// faq
+
+const accordions = document.querySelectorAll('.accordion');
+
+accordions.forEach(accordion => {
+    accordion.addEventListener('click', () => {
+        const body = accordion.querySelector('.accordion-body');
+        const arrow = accordion.querySelector('.arrow');
+
+        body.classList.toggle('active');
+        arrow.classList.toggle('rotate');
+
+    })
+})
