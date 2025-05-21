@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px) and (max-width: 1023px)">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 767px)">
-    <title>Contato</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -41,35 +41,26 @@
 
     <main>
 
-        <h1 class="titulo">Contato</h1>
+        <h1 class="titulo">Login</h1>
 
         <div class="box">
             <form>
                 <fieldset>
 
-                    <p class="descricao">
-                        Envie sua dúvida e entraremos em contato.
+                    <p class="descricaologin">
+                        O login é opcional, você terá acesso a todos os recursos disponíveis mesmo sem cadastro. O
+                        cadastro será usado apenas para fins de personalização do site e melhoria de sua experiência.
                     </p>
 
-                    <div class="inputBox">
-                        <label for="nome">Nome completo</label>
-                        <input type="text" name="nome" id="nome" class="inputUser" required>
 
-                    </div>
                     <div class="inputBox">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" class="inputUser" required>
-
                     </div>
-                    <div class="inputBox">
-                        <label for="telefone">Telefone</label>
-                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
 
-                    </div>
                     <div class="inputBox">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem" name="mensagem" rows="8" class="inputUserText"></textarea>
-
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" class="inputUser" required>
                     </div>
 
                     <button class="btn" type="submit">Enviar</button>

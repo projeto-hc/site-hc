@@ -86,7 +86,6 @@ nav {
 /* cadastro */
 main {
     background-color: #d9d9d9;
-    height: auto;
 }
 
 .titulo {
@@ -95,37 +94,44 @@ main {
     text-align: center;
 }
 
-.descricao {
+/* .descricao {
     font-family: "Jost", sans-serif;
     text-align: center;
     font-size: 1.4rem;
-}
+} */
 
 
 .box {
+    width: 530px;
     font-family: "Jost", sans-serif;
     font-size: 1.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 60px;
 }
 
 fieldset {
+    width: 100%;
     border: solid 2px #000;
     border-radius: 5px;
     padding: 2rem;
-    margin: 3rem;
+
 }
 
 .inputUser {
     background: none;
-    border-radius: 3px;
-    margin-bottom: .5rem;
-    height: 1.6rem;
+    border-radius: 5px;
+    height: 1.8rem;
     font-size: 15px;
     width: 100%;
     border: 1px solid #000;
+}
+
+.inputBox {
+    margin-top: 20px;
 }
 
 .btn {
@@ -138,9 +144,10 @@ fieldset {
     margin-top: 1rem;
     justify-content: flex-end;
     cursor: pointer;
+    float: right;
 }
 
-.btn:hover{
+.btn:hover {
     color: #282D52;
 }
 
@@ -168,11 +175,21 @@ fieldset {
 
 }
 
+.descricaofaq,
+.descricaologin,
+.descricaocadastro {
+    font-family: "Jost", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 #container {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 60%;
+    width: 65%;
     padding-bottom: 60px;
 }
 
@@ -232,6 +249,28 @@ fieldset {
 }
 
 
+/* integrantes */
+
+.container-perfis {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 1rem 0 4rem 0;
+}
+
+.foto {
+    height: 220px;
+    width: 190px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-family: "Jost", sans-serif;
+}
+
+
 
 
 /* footer */
@@ -282,36 +321,46 @@ footer {
 
 /* Estilos para o bloco de ajuda */
 .bloco-ajuda {
-    background-color: #497464; /* Cor de fundo cinza claro */
-    border: 1px solid #ccc; /* Contorno cinza claro */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 10px; /* Deixa as bordas um pouco arredondadas */
-    width: 400px; /* Largura do quadrado (você pode ajustar) */
+    background-color: #497464;
+    /* Cor de fundo cinza claro */
+    border: 1px solid #ccc;
+    /* Contorno cinza claro */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Deixa as bordas um pouco arredondadas */
+    width: 400px;
+    /* Largura do quadrado (você pode ajustar) */
     /* Para centralizar horizontalmente na tela */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px; /* Espaço acima do bloco */
-    text-align: center; /* Centraliza o texto dentro */
-  }
- 
-  /* Estilos para o título secundário dentro do bloco */
-  .bloco-ajuda .titulo-secundario h2 {
-    font-family: 'Arial', sans-serif; /* Muda a fonte */
-    font-size: 24px; /* Muda o tamanho da fonte */
-    color: #ffffff; /* Cor do texto */
+    margin-top: 30px;
+    /* Espaço acima do bloco */
+    text-align: center;
+    /* Centraliza o texto dentro */
+}
+
+/* Estilos para o título secundário dentro do bloco */
+.bloco-ajuda .titulo-secundario h2 {
+    font-family: 'Arial', sans-serif;
+    /* Muda a fonte */
+    font-size: 24px;
+    /* Muda o tamanho da fonte */
+    color: #ffffff;
+    /* Cor do texto */
     margin-bottom: 10px;
-  }
- 
-  /* Estilos para o subtítulo 2 dentro do bloco */
-  .bloco-ajuda .sub-titulo2 p {
+}
+
+/* Estilos para o subtítulo 2 dentro do bloco */
+.bloco-ajuda .sub-titulo2 p {
     font-family: 'Verdana', sans-serif;
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 15px;
-  }
- 
-  /* Estilos para o botão dentro do bloco */
-  .bloco-ajuda button {
+}
+
+/* Estilos para o botão dentro do bloco */
+.bloco-ajuda button {
     padding: 10px 20px;
     font-family: 'sans-serif';
     font-size: 18px;
@@ -320,27 +369,33 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
- 
-  .bloco-ajuda button:hover {
-    background-color: #2f7d59; /* Azul mais escuro ao passar o mouse */
-  }
- 
-  /* Estilos para o título principal */
-  .titulo-principal h1 {
+}
+
+.bloco-ajuda button:hover {
+    background-color: #2f7d59;
+    /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilos para o título principal */
+.titulo-principal h1 {
     font-family: 'Georgia', serif;
     color: #000000;
     font-size: 36px;
-    text-align: center; /* Centraliza o título principal */
-    margin-bottom: 20px; /* Espaço abaixo do título principal */
-  }
- 
-  /* Estilos para o subtítulo principal */
-  .sub-titulo p {
+    text-align: center;
+    /* Centraliza o título principal */
+    margin-bottom: 20px;
+    /* Espaço abaixo do título principal */
+}
+
+/* Estilos para o subtítulo principal */
+.sub-titulo p {
     font-family: 'Tahoma', sans-serif;
     font-size: 18px;
     color: #000000;
-    text-align: center; /* Centraliza o subtítulo */
-    margin-bottom: 30px; /* Espaço abaixo do subtítulo */
-    padding: 0 20px; /* Adiciona um pouco de espaço nas laterais */
-  }
+    text-align: center;
+    /* Centraliza o subtítulo */
+    margin-bottom: 30px;
+    /* Espaço abaixo do subtítulo */
+    padding: 0 20px;
+    /* Adiciona um pouco de espaço nas laterais */
+}

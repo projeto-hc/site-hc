@@ -1,7 +1,6 @@
 /* mobile -> max-width: 767px */
 
 
-
 /* navbar */
 nav {
     padding: 1.5rem 2rem;
@@ -40,9 +39,25 @@ nav {
 
 /* main */
 
+/* integrantes  */
 
 
+/* integrantes */
 
+.container-perfis {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0 4rem 0;
+}
+
+.foto {
+    height: 200px;
+    width: 170px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
 
 
 
