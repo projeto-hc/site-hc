@@ -55,15 +55,23 @@
 
                     <div class="inputBox">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="inputUser" required>
+                        <input type="email" name="email" id="email" class="inputUser">
+                        <span id="erroEmail" class="erro"></span>
                     </div>
-
                     <div class="inputBox">
                         <label for="senha">Senha</label>
-                        <input type="password" name="senha" id="senha" class="inputUser" required>
+                        <input type="password" name="senha" id="senha" class="inputUser">
+                        <span id="erroSenha" class="erro"></span>
                     </div>
 
-                    <button class="btn" type="submit">Enviar</button>
+                    <div class="entrada-flex">
+                        <div class="links-entrada">
+                            <a href="inicio.html" class="link-entrada">Continuar sem cadastro</a>
+                            <br>
+                            <a href="login.html" class="link-entrada">Já tem uma conta?</a>
+                        </div>
+                        <button type="button" onclick="validar()" class="btn">Enviar</button>
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -73,25 +81,47 @@
 
 
     <footer>
-        <div class="footer-items">
-            <div class="footer-item">
-                <div class="footer-logo">
-                    <a href="" class="footer-link">Logo</a>
-                </div>
+        <div class="footer-left">
+            <h1>Logo</h1>
+
+            <p class="footer-links">
+                <a href="inicio.html">HOME</a>
+                |
+                <a href="faq.html">FAQ</a>
+                |
+                <a href="chat.html">CHAT</a>
+                |
+                <a href="contato.html">CONTATO</a>
+                |
+                <a href="integrantes.html">INTEGRANTES</a>
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div class="icone-info">
+                <img src="img/maps.png" alt="" class="icone">
+                <p>Eixo Rosa do Complexo do HC, nº7 – Portão 3 do Inrad – São Paulo – SP
+                    CEP 05403-000</p>
             </div>
-            <div class="footer-item">
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="inicio.html" class="footer-menu-link">HOME</a></li>
-                    <li class="footer-menu-item"><a href="faq.html" class="footer-menu-link">FAQ</a></li>
-                    <li class="footer-menu-item"><a href="chat.html" class="footer-menu-link">CHAT</a></li>
-                    <li class="footer-menu-item"><a href="contato.html" class="footer-menu-link">CONTATO</a></li>
-                    <li class="footer-menu-item"><a href="integrantes.html" class="footer-menu-link">INTEGRANTES</a>
-                    </li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">BUSCAR</a></li>
-                </ul>
+            <div class="icone-info">
+                <img src="img/tel.png" alt="" class="icone">
+                <p>(11) 2661-7557 / 2661-7821</p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="icone-info">
+                <img src="img/hospital.png" alt="" class="icone">
+                <p>Site oficial do <a href="https://redelucymontoro.org.br/site/area-do-paciente/teleatendimento/">HC
+                        ImREA</a></p>
+            </div>
+            <div class="icone-info">
+                <img src="img/playstore.png" alt="" class="icone">
+                <p>Baixe na playstore: <a href=""></a></p>
             </div>
         </div>
     </footer>
+
 
 
 

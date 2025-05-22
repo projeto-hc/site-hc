@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-link:hover {
-    color: #344459;
+    color: #d8a7b1;
 }
 
 .mobile-menu-icon {
@@ -141,15 +141,35 @@ fieldset {
     border: 1px solid #000;
     border-radius: 6px;
     font-size: 17px;
-    margin-top: 1rem;
-    justify-content: flex-end;
+    margin-top: 2.5rem;
     cursor: pointer;
-    float: right;
 }
 
 .btn:hover {
-    color: #282D52;
+    color: #d8a7b1;
 }
+
+.entrada-flex {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.links-entrada {
+    font-size: 1.3rem;
+    gap: 1rem;
+}
+
+.links-entrada a {
+    color: #d8a7b1;;
+}
+
+.links-entrada a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+
 
 /* contato */
 
@@ -164,7 +184,15 @@ fieldset {
     box-sizing: border-box;
 }
 
+.links-entrada {
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+}
 
+.links-entrada a {
+    cursor: pointer;
+}
 
 
 /* faq */
@@ -188,8 +216,8 @@ fieldset {
 #container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    width: 65%;
+    gap: 9px;
+    width: 63%;
     padding-bottom: 60px;
 }
 
@@ -259,8 +287,8 @@ fieldset {
 }
 
 .foto {
-    height: 220px;
-    width: 190px;
+    width: 200px;
+    height: 260px;
     border: 1px solid #000;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -274,45 +302,43 @@ fieldset {
 
 
 /* footer */
-
 footer {
-    padding: 30px 40px;
+    display: flex;
     background-color: #417571;
     font-family: "Jomhuria", serif;
+    color: #fff;
+    padding: 2.3rem 2rem;
+    font-size: 25px;
 }
 
-.footer-menu-link,
-.footer-link {
+.footer-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links a {
     color: #fff;
 }
 
-.footer-items {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+.footer-links a:hover {
+    color: #d8a7b1;
 }
 
-.footer-logo {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 60px;
-    font-weight: bold;
+.icone {
+    height: 20px;
+    width: 20px;
 }
 
-.footer-menu-item {
-    padding-top: 10px;
+.footer-left {
+    margin: auto;
 }
 
-.footer-menu-link {
-    font-size: 35px;
-    transition: color 0.3s linear;
+.footer-center {
+    margin: auto;
 }
 
-.footer-menu-link:hover {
-    color: #344459
+.footer-right {
+    margin: auto;
 }
 
 
@@ -398,4 +424,26 @@ footer {
     /* Espaço abaixo do subtítulo */
     padding: 0 20px;
     /* Adiciona um pouco de espaço nas laterais */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* css do js */
+
+.erro {
+    color: #ff0000;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.erro-input {
+    border: 2px solid #ff0000;
 }

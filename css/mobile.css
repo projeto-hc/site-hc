@@ -3,7 +3,7 @@
 
 /* navbar */
 nav {
-    padding: 1.5rem 2rem;
+    padding: 1.3rem 2rem;
 }
 
 .nav-item {
@@ -39,24 +39,103 @@ nav {
 
 /* main */
 
-/* integrantes  */
+/* cadastro */
+
+
+
+.titulo {
+    padding-top: 30px;
+    font-family: "Konkhmer Sleokchher", sans-serif;
+    text-align: center;
+}
+
+/* .descricao {
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+} */
+
+
+.box {
+    width: 337px;
+}
+
+fieldset {
+    padding: 1.8rem;
+}
+
+.inputUser {
+    font-size: 3px;
+}
+
+.inputBox {
+    font-size: 20px;
+}
+
+.btn {
+    padding: .7rem 1.3rem;
+    font-size: 17px;
+}
+
+
+/* contato */
+
+.entrada-flex {
+    display: flex;
+    align-items: center;
+    /* row-gap: 3rem; */
+    column-gap: 3rem;
+}
+
+.links-entrada {
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.links-entrada a {
+    font-size: 18px;
+    gap: 1rem;
+    color: #282D52;
+}
+
+/* faq */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+
+}
+
+
+
+
 
 
 /* integrantes */
 
 .container-perfis {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem 0 4rem 0;
+    padding: 0 2rem;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 1.5rem;
+    font-size: 18px;
 }
 
 .foto {
-    height: 200px;
-    width: 170px;
-    border: 1px solid #000;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    width: 180px;
+    height: 240px;
+}
+
+.perfil {
+    display: flex;
+}
+
+.info {
+    font-family: "Jost", sans-serif;
+    margin: auto 12px;
 }
 
 
@@ -64,33 +143,21 @@ nav {
 
 
 /* footer */
+
 footer {
-    padding: 60px 0;
-}
-
-.footer-items {
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-item {
-    padding-bottom: 40px;
-}
-
-.footer-item:last-child {
-    padding-bottom: 0;
-}
-
-.footer-menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.footer-menu-item {
-    padding-top: 20px;
+.footer-links a{
+    margin: 0 auto;
+    width: 100%;
 }
 
-.footer-menu-link {
-    font-size: 35px;
+.icone-info {
+    margin-top: 30px;
+}
+
+.footer-right {
+    margin: 0 0;
 }

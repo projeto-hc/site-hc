@@ -37,13 +37,13 @@ A objetivo é criar um site responsivo integrado a um chatbot que oriente pacien
 
       Mariana Xavier Quispe
       RM: 566357
-      GITHUB: 
+      GITHUB: Marixavq
       LINKEDIN:
       Turma: 1TDSA
 
       Yanick José Zen dos Santos
-      RM: 558350
-      GITHUB:
+      RM: 558350 
+      GITHUB: yanick3
       LINKEDIN:
       Turma: 1TDSA
 
