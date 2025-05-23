@@ -42,19 +42,11 @@ nav {
 /* cadastro */
 
 
-
 .titulo {
     padding-top: 30px;
     font-family: "Konkhmer Sleokchher", sans-serif;
     text-align: center;
 }
-
-/* .descricao {
-    font-family: "Jost", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-} */
-
 
 .box {
     width: 337px;
@@ -104,7 +96,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 300px;
+    width: 315px;
 
 }
 
@@ -141,15 +133,35 @@ fieldset {
 
 
 
+/* tela inicial */
+.container-inicio {
+    height: 870px;
+    margin: 0 auto;
+    padding-bottom: 65rem;
+}
+
+.bloco-ajuda {
+    width: 90%;
+    margin: auto;
+}
+
+
+
 
 /* footer */
 
 footer {
+    padding: 17px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.footer-links a{
+.footer-links {
+    gap: .7rem;
+}
+
+.footer-links a {
     margin: 0 auto;
     width: 100%;
 }

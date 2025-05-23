@@ -31,14 +31,14 @@ A objetivo é criar um site responsivo integrado a um chatbot que oriente pacien
     Nome: 
       Júlia Tiziotto Buttler
       RM: 564975
-      GITHUB:
-      LINKEDIN:
+      GITHUB: JuliaTButtler
+      LINKEDIN: Júlia T Buttler
       Turma: 1TDSA
 
       Mariana Xavier Quispe
       RM: 566357
       GITHUB: Marixavq
-      LINKEDIN:
+      LINKEDIN: Mariana Xavier Quispe
       Turma: 1TDSA
 
       Yanick José Zen dos Santos
