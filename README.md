@@ -44,7 +44,7 @@ A objetivo é criar um site responsivo integrado a um chatbot que oriente pacien
       Yanick José Zen dos Santos
       RM: 558350 
       GITHUB: yanick3
-      LINKEDIN:
+      LINKEDIN: Yanick Santos
       Turma: 1TDSA
 
 

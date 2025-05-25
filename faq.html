@@ -12,21 +12,24 @@
 
 <body>
     <header>
-        <nav>
+          <nav aria-label="Menu principal">
             <div class="logo">
-                <h1>Logo</h1>
+                <a href="inicio.html">
+                    <img src="img/imglogo.svg" alt="Página inicial do site SaúdeBot">SaúdeBot</a>
             </div>
+
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="inicio.html" class="nav-link">HOME</a></li>
                     <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
                     <li class="nav-item"><a href="chat.html" class="nav-link">CHAT</a></li>
-                    <li class="nav-item"><a href="contato.html" class="nav-link"> CONTATO</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
+
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt=""></button>
+                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt="Menu"></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -34,7 +37,7 @@
                 <li class="nav-item"><a href="inicio.html" class="nav-link">HOME</a></li>
                 <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
                 <li class="nav-item"><a href="chat.html" class="nav-link">CHAT</a></li>
-                <li class="nav-item"><a href="contato.html" class="nav-link"> CONTATO</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
     </header>
@@ -58,7 +61,17 @@
                                 <img src="img/chevron-down.svg" alt="" class="arrow">
                             </button>
                             <div class="accordion-body">
-                                <p>Pesquise "Portal do Paciente HC" na PlayStore ou acesse o <a href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente">link</a> para baixar o aplicativo. Clique em <b>Instalar</b> e em <b>Abrir</b>. Nesse primeiro acesso, clique em <b>Cadastrar Senha</b>, cadastre sua senha e em seguida clique em <b>Localizar Paciente</b>, digite seu CPF (apenas números). Será exibido um nome, se for você prossiga normalmente, senão, clique em <b>Alterar Paciente</b> e você retornará a tela anterior para fazer a busca novamente. Se seu nome estiver correto, preencha com email e número de celular. Selecione o nome completo de sua mãe e seu ano de nascimento. Após a realização dessas etapas, seu cadastro foi concluído com sucesso.
+                                <p>Pesquise "Portal do Paciente HC" na PlayStore ou acesse o <a
+                                        href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente">link</a>
+                                    para baixar o aplicativo. Clique em <b>Instalar</b> e em <b>Abrir</b>. Nesse
+                                    primeiro acesso, clique em <b>Cadastrar Senha</b>, cadastre sua senha (guarde a
+                                    senha pois será importante) e em seguida
+                                    clique em <b>Localizar Paciente</b>, digite seu CPF (apenas números). Será exibido
+                                    um nome, se for você prossiga normalmente, senão, clique em <b>Alterar Paciente</b>
+                                    e você retornará a tela anterior para fazer a busca novamente. Se seu nome estiver
+                                    correto, preencha com email e número de celular. Selecione o nome completo de sua
+                                    mãe e seu ano de nascimento. Após a realização dessas etapas, seu cadastro foi
+                                    concluído com sucesso.
                                 </p>
                             </div>
                         </div>
@@ -68,109 +81,141 @@
                                 <img src="img/chevron-down.svg" alt="" class="arrow">
                             </button>
                             <div class="accordion-body">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non officia facere maxime
-                                    sed
-                                    nemo
-                                    id
-                                    illum quaerat, dicta sit autem unde dolores optio nobis illo voluptatum sequi rerum
-                                    explicabo
-                                    architecto.</p>
+                                <p>Clique no link <b>Esqueci a minha senha</b> e siga o passo a passo indicado nas telas
+                                    do sistema.
+                                </p>
                             </div>
                         </div>
                         <div class="accordion">
                             <button class="accordion-header">
-                                <span>Como agendar consultas?</span>
+                                <span>O que eu preciso para participar da teleconsulta?</span>
                                 <img src="img/chevron-down.svg" alt="" class="arrow">
                             </button>
                             <div class="accordion-body">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non officia facere maxime
-                                    sed
-                                    nemo
-                                    id
-                                    illum quaerat, dicta sit autem unde dolores optio nobis illo voluptatum sequi rerum
-                                    explicabo
-                                    architecto.</p>
+                                <p>Acesso à Internet; <br>
+                                    Download do aplicativo Portal do Paciente HC; <br>
+                                    Cadastro no Portal do Paciente HC; <br>
+                                    Ter aceito o Termo de Consentimento pelo Portal do Paciente HC; <br>
+                                    Acesso a um smartphone com câmera frontal (preferencialmente) ou
+                                    computador/ notebook com webcam; <br>
+                                    Navegador Google Chrome;</p>
                             </div>
                         </div>
                         <div class="accordion">
                             <button class="accordion-header">
-                                <span>Como fazer login no app HC?</span>
+                                <span>Como acessar minha conta no app HC?</span>
                                 <img src="img/chevron-down.svg" alt="" class="arrow">
                             </button>
                             <div class="accordion-body">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non officia facere maxime
-                                    sed
-                                    nemo
-                                    id
-                                    illum quaerat, dicta sit autem unde dolores optio nobis illo voluptatum sequi rerum
-                                    explicabo
-                                    architecto.</p>
+                                <p>Clique no botão <b>Acessar Portal</b>. Digite seu CPF e sua senha cadastrada
+                                    anteriormente. Clique em <b>Acessar</b>.
+                                </p>
                             </div>
                         </div>
                         <div class="accordion">
                             <button class="accordion-header">
-                                <span>Como posicionar a câmera?</span>
+                                <span>Como reagendar minha consulta e/ou exame?</span>
                                 <img src="img/chevron-down.svg" alt="" class="arrow">
                             </button>
                             <div class="accordion-body">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non officia facere maxime
-                                    sed
-                                    nemo
-                                    id
-                                    illum quaerat, dicta sit autem unde dolores optio nobis illo voluptatum sequi rerum
-                                    explicabo
-                                    architecto.</p>
+                                <p>O Portal só permite o reagendamento de <b>Consultas</b>. As solicitações de
+                                    agendamento estão disponíveis apenas para os Institutos: ICHC e IOT. Não é possível
+                                    solicitar a antecipação da consulta. O sistema não permite reagendamento se teve uma
+                                    falta seguida da outra.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <button class="accordion-header">
+                                <span>Os dados do meu cadastro estão desatualizados, como atualizar?</span>
+                                <img src="img/chevron-down.svg" alt="" class="arrow">
+                            </button>
+                            <div class="accordion-body">
+                                <p>Você pode atualizar seus dados diretamente através do portal na opção <b>Meus
+                                        Dados</b>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion">
+                            <button class="accordion-header">
+                                <span>Como entrar na teleconsulta?</span>
+                                <img src="img/chevron-down.svg" alt="" class="arrow">
+                            </button>
+                            <div class="accordion-body">
+                                <p>Clique na opção <b>Teleconsulta</b>. No dia e hora da consulta clique sobre o
+                                    agendamento. Se esta é a primeira vez que você vai participar de uma teleconsulta
+                                    será necessário aceitar o
+                                    Termo de consentimento que aparecerá na tela. Leia o termo e clique no botão
+                                    <b>SIM</b>, se
+                                    estiver de acordo com os termos
+                                    apresentados para participar de uma
+                                    Teleconsulta.
+                                    Se não estiver de acordo, clique no botão
+                                    <b>NÃO</b>. Ao escolher esta opção, você não poderá entrar na consulta. Senão for se
+                                    seu primeiro acesso, clique em <b>Entrar na Teleconsulta</b>, vai aparecer a
+                                    mensagem “Aguardando médico entrar”, aguarde. Caso você tenha mais de um navegador
+                                    instalado, selecione o Google Chrome. Uma janela será exibida perguntando como o
+                                    paciente
+                                    gostaria de se juntar ao áudio: clique na opção <b>Microfone</b>. Fale algumas
+                                    palavras, se ouvir colique no botão verde. Agora, na barra inferior clique no ícone
+                                    de câmera, clique <b>Permitir</b>, agora você estará visível para seu médico.
+
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
     </main>
 
 
-
     <footer>
-        <div class="footer-left">
-            <h1>Logo</h1>
+        <div class="footer-container">
 
-            <p class="footer-links">
-                <a href="inicio.html">HOME</a>
-                |
+            <div class="logo logo-footer">
+                <a href="inicio.html">
+                    <img src="img/imglogo.svg" alt="Página inicial do site SaúdeBot">SaúdeBot</a>
+            </div>
+
+            <div class="footer-nav">
+                <a href="inicio.html">Home</a>
                 <a href="faq.html">FAQ</a>
-                |
-                <a href="chat.html">CHAT</a>
-                |
-                <a href="contato.html">CONTATO</a>
-                |
-                <a href="integrantes.html">INTEGRANTES</a>
-            </p>
-        </div>
+                <a href="chat.html">Chat</a>
+                <a href="contato.html">Contato</a>
+                <a href="integrantes.html">Integrantes</a>
+                <a href="index.html">Cadastro</a>
+                <a href="login.html">Login</a>
+            </div>
+            <div class="direita">
+                <div class="footer-info">
+                    <div class="icone-info">
+                        <img src="img/maps.png" alt="Endereço do Hospital das Clínicas" class="icone">
+                        <p>Eixo Rosa do Complexo do HC, nº7 – Portão 3 do Inrad – São Paulo – SP
+                            CEP 05403-000</p>
+                    </div>
+                    <div class="icone-info">
+                        <img src="img/tel.png" alt="Telefone para contato com Hospital das Clínicas" class="icone">
+                        <p>(11) 2661-7557 / 2661-7821</p>
+                    </div>
+                </div>
 
-        <div class="footer-center">
-            <div class="icone-info">
-                <img src="img/maps.png" alt="" class="icone">
-                <p>Eixo Rosa do Complexo do HC, nº7 – Portão 3 do Inrad – São Paulo – SP
-                    CEP 05403-000</p>
+                <div class="footer-links">
+                    <div class="icone-info">
+                        <img src="img/hospital.png" alt="Site oficial do Hospital das Clínicas" class="icone">
+                        <p>Site oficial do <a
+                                href="https://redelucymontoro.org.br/site/area-do-paciente/teleatendimento/">HC
+                                ImREA</a></p>
+                    </div>
+                    <div class="icone-info">
+                        <img src="img/playstore.png" alt="Link da PlayStore para baixar o app Portal do Paciente - HC"
+                            class="icone">
+                        <p>Clique <a
+                                href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente">aqui</a>
+                            para baixar na PlayStore</p>
+                    </div>
+                </div>
             </div>
-            <div class="icone-info">
-                <img src="img/tel.png" alt="" class="icone">
-                <p>(11) 2661-7557 / 2661-7821</p>
-            </div>
-        </div>
-
-        <div class="footer-right">
-            <div class="icone-info">
-                <img src="img/hospital.png" alt="" class="icone">
-                <p>Acesse o <a href="https://redelucymontoro.org.br/site/area-do-paciente/teleatendimento/"> site
-                        oficial</a> do HCImREA</p>
-            </div>
-            <div class="icone-info">
-                <img src="img/playstore.png" alt="" class="icone">
-                <p>Clique <a href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente">aqui</a>
-                    para baixar o app HC na PlayStore</p>
-            </div>
-        </div>
     </footer>
-
 
 
 

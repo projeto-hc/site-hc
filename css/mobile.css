@@ -10,6 +10,15 @@ nav {
     display: none;
 }
 
+.mobile-menu {
+    display: none;
+    background-color: #417571;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    z-index: 9999;
+}
+
 .mobile-menu-icon {
     display: block;
 }
@@ -110,6 +119,7 @@ fieldset {
 .container-perfis {
     display: flex;
     padding: 0 2rem;
+    padding-bottom: 3rem;
     flex-direction: column;
     gap: 4rem;
     margin-top: 1.5rem;
@@ -121,9 +131,6 @@ fieldset {
     height: 240px;
 }
 
-.perfil {
-    display: flex;
-}
 
 .info {
     font-family: "Jost", sans-serif;
@@ -134,11 +141,7 @@ fieldset {
 
 
 /* tela inicial */
-.container-inicio {
-    height: 870px;
-    margin: 0 auto;
-    padding-bottom: 65rem;
-}
+
 
 .bloco-ajuda {
     width: 90%;
@@ -146,30 +149,8 @@ fieldset {
 }
 
 
-
-
 /* footer */
 
-footer {
-    padding: 17px;
-    display: flex;
+.footer-container {
     flex-direction: column;
-    width: 100%;
-}
-
-.footer-links {
-    gap: .7rem;
-}
-
-.footer-links a {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.icone-info {
-    margin-top: 30px;
-}
-
-.footer-right {
-    margin: 0 0;
 }

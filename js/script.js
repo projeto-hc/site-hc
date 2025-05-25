@@ -30,7 +30,7 @@ accordions.forEach(accordion => {
 
 
 
-// cadastro
+// formularios
 
 function validar() {
     nome = document.getElementById("nome");
@@ -39,8 +39,6 @@ function validar() {
     senha = document.getElementById("senha");
     mensagem = document.getElementById("mensagem");
 
-
-    valido = false;
 
     if (nome && nome.value.trim() === "") {
         document.getElementById("erroNome").innerText = "Campo nome é obrigatório!";
@@ -93,8 +91,12 @@ function validar() {
 
     // ---------------------
 
-    if (valido) {
-        window.location.href = "inicio.html";
-    }
+    alert("Dúvida enviada");
+
+    nome.value = "";
+    email.value = "";
+    telefone.value = "";
+    senha.value = "";
+    mensagem.value = "";
 
 }

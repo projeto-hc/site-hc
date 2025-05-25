@@ -4,17 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-/* body{
-    min-height: 100vh;
-} */
-
 
 ul,
 li {
@@ -31,21 +27,32 @@ header {
     font-size: 2.5rem;
     font-family: "Jomhuria", serif;
     background-color: #417571;
+    height: 100px;
 }
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 2rem 2rem;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    gap: 10px;
+    height: 100%;
 }
 
-.logo h1 {
-    color: #fff;
+.logo img {
+    height: 30px;
+}
+
+.logo a {
+    color: #000;
+    font-family: "Joti One", sans-serif;
+    font-size: 25px;
+    align-items: center;
 }
 
 .nav-list {
@@ -86,6 +93,7 @@ nav {
 /* cadastro */
 main {
     background-color: #d9d9d9;
+    height: auto;
 }
 
 .titulo {
@@ -93,13 +101,6 @@ main {
     font-family: "Konkhmer Sleokchher", sans-serif;
     text-align: center;
 }
-
-/* .descricao {
-    font-family: "Jost", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-} */
-
 
 .box {
     width: 530px;
@@ -165,8 +166,7 @@ fieldset {
 }
 
 .links-entrada a {
-    color: #d8a7b1;
-    ;
+    color: #417571;
 }
 
 .links-entrada a:hover {
@@ -247,10 +247,11 @@ fieldset {
 
 .accordion-header span {
     max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: left;
 }
+
 
 .accordion-body {
     font-family: "Jost", sans-serif;
@@ -304,56 +305,16 @@ fieldset {
 }
 
 
-/* footer */
-footer {
-    display: flex;
-    background-color: #417571;
-    font-family: "Jomhuria", serif;
-    color: #fff;
-    padding: 2.3rem 2rem;
-    font-size: 25px;
-}
 
-.footer-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.footer-links a {
-    color: #fff;
-}
-
-.footer-links a:hover {
-    color: #d8a7b1;
-}
-
-.icone {
-    height: 20px;
-    width: 20px;
-}
-
-.icone-info p a:hover {
-    color: #d8a7b1;
-}
-
-.footer-left {
-    margin: auto;
-}
-
-.footer-center {
-    margin: auto;
-}
-
-.footer-right {
-    margin: auto;
-}
 
 
 /* tela inicial */
+
+
 .container-inicio {
-    height: 480px;
+    padding-bottom: 30px;
+    margin: 0 auto;
     width: 70%;
-    margin: auto auto;
     font-family: "Jost", sans-serif;
 }
 
@@ -383,21 +344,24 @@ footer {
     padding: 10px 20px;
     font-size: 20px;
     font-family: bold;
-    background-color: #ffffff;
+    background-color: #fff;
     color: #417571;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 
-.bloco-ajuda button:hover {
-    background-color: #d8a7b1;
+.bloco-ajuda button a:hover {
     color: #417571;
 }
+.bloco-ajuda button:hover {
+    color: #417571;
+    background-color: #d8a7b1;
+}
+
 
 .titulo-principal h1 {
-
-    color: #000000;
+    color: #000;
     font-size: 36px;
     text-align: center;
     padding: 25px 0 5px 0;
@@ -406,19 +370,78 @@ footer {
 .sub-titulo p {
 
     font-size: 22px;
-    color: #000000;
+    color: #000;
     text-align: center;
     margin-bottom: 30px;
     padding: 0 20px;
 }
 
 
+/* footer */
 
+footer {
+    background-color: #417571;
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: "Jost", serif;
 
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 auto;
+}
 
+.footer-nav {
+    width: 200px;
+    font-size: 20px;
+    margin: 0 auto;
+}
 
+.footer-nav a {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    padding: 2px 0;
+}
 
+.footer-nav a:hover {
+    color: #d8a7b1;
+}
+
+.direita {
+    margin: auto auto;
+}
+
+.icone-info {
+    display: flex;
+    gap: .7rem;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.icone-info img {
+    height: 20px;
+}
+
+.icone-info {
+    padding: 10px;
+}
+
+.logo-footer {
+    margin: auto 0;
+}
+
+.icone-info a{
+    color: #d8a7b1;
+}
+
+.icone-info a:hover{
+    color: #fff;
+}
 
 
 
