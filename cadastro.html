@@ -12,68 +12,79 @@
 
 <body>
     <header>
-        <nav>
+        <nav aria-label="Menu principal">
             <div class="logo">
-                <h1>Logo</h1>
+                <a href="index.html">
+                    <img src="img/imglogo.svg" alt="Página inicial do site SaúdeBot">SaúdeBot</a>
             </div>
+
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
                     <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">CHAT</a></li>
-                    <li class="nav-item"><a href="contato.html" class="nav-link"> CONTATO</a></li>
+                    <li class="nav-item"><a href="chat.html" class="nav-link">CHAT</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
+
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt=""></button>
+                <button onclick="menuShow()"><img class="icon" src="img/menu.png" alt="Menu"></button>
             </div>
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
                 <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">CHAT</a></li>
-                <li class="nav-item"><a href="contato.html" class="nav-link"> CONTATO</a></li>
+                <li class="nav-item"><a href="chat.html" class="nav-link">CHAT</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
     </header>
+
 
     <main>
 
         <h1 class="titulo">Cadastro</h1>
 
         <div class="box">
-            <form>
+            <form aria-label="Formulário de cadastro de usuário">
                 <fieldset>
 
-                    <p class="descricao">
+                    <p class="descricaocadastro">
                         O cadastro é opcional, você terá acesso a todos os recursos disponíveis mesmo sem cadastro. O
                         cadastro será usado apenas para fins de personalização do site e melhoria de sua experiência.
                     </p>
 
                     <div class="inputBox">
                         <label for="nome">Nome completo</label>
-                        <input type="text" name="nome" id="nome" class="inputUser" required>
-
+                        <input type="text" name="nome" id="nome" class="inputUser">
+                        <span id="erroNome" class="erro"></span>
                     </div>
                     <div class="inputBox">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="inputUser" required>
-
+                        <input type="email" name="email" id="email" class="inputUser">
+                        <span id="erroEmail" class="erro"></span>
                     </div>
                     <div class="inputBox">
                         <label for="telefone">Telefone</label>
-                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-
+                        <input type="tel" name="telefone" id="telefone" class="inputUser">
+                        <span id="erroTelefone" class="erro"></span>
                     </div>
                     <div class="inputBox">
                         <label for="senha">Senha</label>
-                        <input type="password" name="senha" id="senha" class="inputUser" required>
-
+                        <input type="password" name="senha" id="senha" class="inputUser">
+                        <span id="erroSenha" class="erro"></span>
                     </div>
-
-                    <button class="btn" type="submit">Enviar</button>
+                    <div class="entrada-flex">
+                        <div class="links-entrada">
+                            <a href="inicio.html" class="link-entrada">Continuar sem cadastro</a>
+                            <br>
+                            <a href="login.html" class="link-entrada">Já tem uma conta?</a>
+                        </div>
+                        <button type="button" onclick="validar()" class="btn"
+                            aria-label="Enviar formulário de cadastro">Enviar</button>
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -82,27 +93,63 @@
 
 
 
+
     <footer>
-        <div class="footer-items">
-            <div class="footer-item">
-                <div class="footer-logo">
-                    <a href="" class="footer-link">Logo</a>
-                </div>
+        <div class="footer-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/imglogo.svg" alt="Página inicial do site SaúdeBot">SaúdeBot
+                </a>
             </div>
-            <div class="footer-item">
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">HOME</a></li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">FAQ</a></li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">CHAT</a></li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">CONTATO</a></li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">INTEGRANTES</a></li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link">BUSCAR</a></li>
-                </ul>
+            <div class="colunas-container">
+                <div class="coluna">
+                    <p class="footer-nav-title">Projeto</p>
+
+                    <div class="footer-links">
+                        <a href="cadastro.html">Cadastro</a>
+                        <a href="login.html">Login</a>
+                        <a href="integrantes.html">Integrantes</a>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <p class="footer-nav-title">Suporte</p>
+
+                    <div class="footer-links">
+                        <a href="faq.html">FAQ</a>
+                        <a href="chat.html">Chat</a>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <p class="footer-nav-title">Informações</p>
+
+                    <div class="icone-info">
+                        <img src="img/maps.png" alt="Endereço do Hospital das Clínicas" class="icone">
+                        <p>Eixo Rosa do Complexo do HC, nº7 – Portão 3 do Inrad – São Paulo – CEP 05403-000</p>
+                    </div>
+                    <div class="icone-info">
+                        <img src="img/tel.png" alt="Telefone para contato com Hospital das Clínicas" class="icone">
+                        <p>(11) 2661-7557 / 2661-7821</p>
+                    </div>
+                    <div class="icone-info">
+                        <img src="img/hospital.png" alt="Site oficial do Hospital das Clínicas" class="icone">
+                        <p>Site oficial do <a
+                                href="https://redelucymontoro.org.br/site/area-do-paciente/teleatendimento/">HC
+                                ImREA</a></p>
+                    </div>
+                    <div class="icone-info">
+                        <img src="img/playstore.png" alt="Link da PlayStore para baixar o app Portal do Paciente - HC"
+                            class="icone">
+                        <p>Clique <a
+                                href="https://play.google.com/store/apps/details?id=com.netihc.portaldopaciente">aqui</a>
+                            para baixar na PlayStore</p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-
-
 
     <script src="js/script.js"></script>
 </body>
