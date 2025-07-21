@@ -42,10 +42,7 @@ nav {
     align-items: center;
     gap: 10px;
     height: 100%;
-<<<<<<< HEAD
     margin: auto 0;
-=======
->>>>>>> 97460c389723bd0500a273f9b95afa9a8d8e4f20
 }
 
 .logo img {
@@ -358,10 +355,7 @@ fieldset {
 .bloco-ajuda button a:hover {
     color: #417571;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 97460c389723bd0500a273f9b95afa9a8d8e4f20
 .bloco-ajuda button:hover {
     color: #417571;
     background-color: #d8a7b1;
@@ -389,22 +383,14 @@ fieldset {
 
 footer {
     background-color: #417571;
-<<<<<<< HEAD
     font-family: "Jost", sans-serif;
     color: #000;
     padding: 3rem 2rem;
     margin: 0 auto;
-=======
-    color: #fff;
-    padding: 2rem 1rem;
-    font-family: "Jost", serif;
-
->>>>>>> 97460c389723bd0500a273f9b95afa9a8d8e4f20
 }
 
 .footer-container {
     display: flex;
-<<<<<<< HEAD
     width: auto;
     margin: 0 auto;
 }
@@ -441,39 +427,11 @@ footer {
     width: 80%;
     display: flex;
     margin: 0 auto;
-=======
-    justify-content: space-between;
-    gap: 2rem;
-    margin: 0 auto;
-}
-
-.footer-nav {
-    width: 200px;
-    font-size: 20px;
-    margin: 0 auto;
-}
-
-.footer-nav a {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    align-items: center;
-    padding: 2px 0;
-}
-
-.footer-nav a:hover {
-    color: #d8a7b1;
-}
-
-.direita {
-    margin: auto auto;
->>>>>>> 97460c389723bd0500a273f9b95afa9a8d8e4f20
 }
 
 .icone-info {
     display: flex;
     gap: .7rem;
-<<<<<<< HEAD
     padding-top: 8px;
     font-size: 17px;
 }
@@ -486,31 +444,6 @@ footer {
 
 
 
-=======
-    font-size: 18px;
-    margin-bottom: 12px;
-}
-
-.icone-info img {
-    height: 20px;
-}
-
-.icone-info {
-    padding: 10px;
-}
-
-.logo-footer {
-    margin: auto 0;
-}
-
-.icone-info a{
-    color: #d8a7b1;
-}
-
-.icone-info a:hover{
-    color: #fff;
-}
->>>>>>> 97460c389723bd0500a273f9b95afa9a8d8e4f20
 
 
 
